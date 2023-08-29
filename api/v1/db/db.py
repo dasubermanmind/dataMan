@@ -3,6 +3,7 @@ from sqlalchemy import (Column, Integer, MetaData, String, Table,
                         create_engine, ARRAY)
 
 from settings.settings import DATABASE_URL
+from databases import Database
 
 
 engine = create_engine(DATABASE_URL)
